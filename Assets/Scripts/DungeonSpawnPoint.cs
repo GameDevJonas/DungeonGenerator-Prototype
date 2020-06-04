@@ -21,8 +21,8 @@ public class DungeonSpawnPoint : MonoBehaviour
     void Start()
     {
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomManager>();
-        daGrid = GameObject.FindGameObjectWithTag("RoomManager");
-        Invoke("Spawn", 0);
+        //daGrid = GameObject.FindGameObjectWithTag("RoomManager");
+        Invoke("Spawn", .05f);
     }
 
     // Update is called once per frame
