@@ -14,7 +14,6 @@ public class DungeonSpawnPoint : MonoBehaviour
     public bool spawned = false;
 
     private RoomManager templates;
-    private GameObject daGrid;
 
     private int rand;
 
